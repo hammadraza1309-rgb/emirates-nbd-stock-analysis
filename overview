@@ -1,0 +1,29 @@
+Emirates NBD 6-Month Market Data Analysis
+Project Overview
+The project analyzes Emirates NBD stock market data over 6 months. The goal was to understand the stock data metrics and to engineer new metrics to provide insights into the stock, and to compare the metrics using graphs
+Key Metrics used
+  Columns Used 
+    (Open, High, Low, Close, Volume, etc.)
+  Metrics Derived 
+    Return-(Close Price- Close Price of the day  before)/Close Price of the day before. Used to measure the change 
+    Price Volatility: Measuring market "chaos" vs stability. (used the standard deviation function)
+    Volume Volatility: Identifying erratic crowd behavior. (used the standard deviation function)
+    Breathe (Range %): Visualizing the daily "battle" between buyers and sellers. (high-low/open)x100
+    Most interesting metric, range, the logic used behind it, and how it quantifies the behavior of the stock throughout the day 
+    Hardest Concepts: Volatility, the standard deviation behind it, took some time to understand, along with some AI assistance 
+Learning Section
+Although I didn't know much heading into this project, I have learned many new metrics
+  What I already knew
+    Python basics/Graphs/Excel/Basic finance 
+  Where AI helped me 
+    Understanding the concept of volatility/Usage of yffinance/understanding concepts
+  What I did myself
+    Choosing the metric/interpreting results/cleaning datasets
+  Mistakes
+    Confusing Average and standard deviation
+Reflection
+  What I would like to improve
+    Rebuild it in Python to enable scalable and deeper analysis  
+  Next features I would add
+    Correlation Analysis with external factors
+    Anomaly detection for unexpected spikes
